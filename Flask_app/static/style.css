@@ -1,0 +1,324 @@
+body {
+    background: rgb(128, 112, 93);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    background-image: url('/static/pizza_fire.jpg');
+    background-size: 100%;
+    background-position: 0px -300px;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 200px;
+    text-align: center;
+    
+}
+
+header a {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-transform: uppercase;
+    margin-top: 40px;
+    
+}
+
+header .mobile {
+    display: none;
+}
+
+header .logo a {
+    
+    
+    background-image: url('/static/Pizza2.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position:relative;
+    height: 150px;
+    text-indent: -9999999999999px;
+    top: -30px;
+    width: 300px;
+}
+
+nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+/* RESPONSIVE RULES */
+
+@media screen and (max-width: 790px) {
+    
+    header {
+        height: 400px;
+        background-position: 0 0px;
+    }
+    
+    header .mobile {
+        display: inline-block;
+    }
+    
+    header .desktop {
+        display: none;
+    }
+    
+    
+}
+
+/* FEATURES */
+
+
+/* .shadow {
+    -webkit-border-radius: 0% 0% 100% 100% / 0% 0% 8px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0,.30) 0 2px 3px;
+} */
+
+.container {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    height: 100vh;
+    background: rgba(242, 242, 242, 0.212);
+    border: 1px solid rgba(242, 242, 242, 0.5);
+    box-shadow: 1px 1px 2px rgba(242, 242, 242, 0.),
+    -1px -1px 2px rgba(242, 242, 242, 0.5);
+    border-radius: 3px/6px;         
+    
+    
+}
+
+
+
+
+.content-section {
+    
+    padding-top:10px;
+    margin: auto;
+    align-content: center;
+    /* display: flex; */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+}
+
+/* Top text  */
+.demo-4 .main h1 i, 
+.demo-4 .main h2 i, 
+.demo-4 .main h3 i, 
+.demo-4 .main h4 i {
+	padding-right: 10px;
+	color: #A8D13B;
+    font-size: 0.8em;
+}
+
+/* .demo-4 .main h2:after, 
+.demo-4 .main h3:after, 
+.demo-4 .main h4:after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	border-radius: 2px;
+	left: 0;
+	bottom: 0;
+	box-shadow: 
+		0 -1px 0 rgba(0,0,0,0.1), 
+		0 1px 0 rgba(255,255,255,0.6);
+}
+
+.demo-4 .main h2:after { width: 100%; } 
+.demo-4 .main h3:after { width:  75%; }
+.demo-4 .main h4:after { width:  50%; } */
+
+.demo-4 .main h1 {
+	margin: 1em 0 0.75em;
+	padding: 0 0 5px 0;
+	color: rgb(94, 74, 32);
+	font-weight: normal;
+	position: relative;
+	text-shadow: 0 2px 0 rgba(255, 255, 255, 0.151);
+	font-size: 36px;
+	line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Button */
+
+.button_div {
+    text-align: center
+}
+
+
+
+.button {
+    background-color: rgb(94, 74, 32, 0.2); /* Green */
+    border: none;
+    color: rgb(94, 74, 32);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    /* margin: 4px 2px; */
+    margin: 0 auto;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position:relative;
+  }
+  
+  .button1 {
+    background-color: rgb(94, 74, 32, 0.2); 
+    color: rgb(94, 74, 32); 
+    border: 2px solid rgb(94, 74, 32, 0.6);
+  }
+
+  .button1:hover {
+    background-color: rgb(94, 74, 32, 0.8);
+    color: rgb(51, 41, 18);
+  }
+
+
+        
+
+
+
+/* .features figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.features figure img {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+    
+} */
+
+
+
+
+
+/* section {
+    background: white;
+    color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+} */
+
+
+/* div {
+    background: red;
+    width: 100px;
+    margin: auto;
+    
+    
+} */
+
+footer {
+    background: black;
+    color: gray;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 800px){
+    .features{
+        
+        background: pink;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 400px){
+    .features{
+        
+        background: red;
+    }
+    
+    
+    
+}
+
+ /* The switch - the box around the slider */
+ .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(172, 149, 104);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color:  rgb(172, 149, 104);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color:  rgb(94, 74, 32);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px  rgb(94, 74, 32);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  } 
